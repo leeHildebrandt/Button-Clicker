@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-title">
+                <h1>Dojonary</h1>
+            </div>
+            <div>
+                <input type="text" name="first_name"
+                placeholder="Search..." class="nav-search-bar">
+            </div>
+            <div>
+                <button class="nav-btn" onclick="logout(this)">Login</button>
+            </div>
+        </div>
+        <div class="box-layout-1">
+            <div class="box-1">
+                <div class="inner-box-1A">
+                    <div>
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <p>Plural: <em>ninjas</em></p>
+                    </div>
+                    <div>
+                        <button class="btn-1A" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                </div>
+                <div class="inner-box-1B">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="inner-box-2A">
+                    <h2>Dojonary is defined by <span>YOU</span></h2>
+                </div>
+                <div class="inner-box-2B">
+                    <button class="btn-2B" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+        <div class="box-layout-2">
+            <div class="box-3">
+                <div class="inner-box-3A">
+                    <div>
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <p>Plural: <em>ninjas</em></p>
+                    </div>
+                    <div >
+                        <button class="btn-3A">37 likes</button>
+                    </div>
+                </div>
+                <div class="inner-box-3B">
+                    <p>A <a href="#">programmer</a> who breaks down problems in <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
